@@ -1,6 +1,6 @@
 class car {
 
-int number
+int numberdoors;
 
 
 
