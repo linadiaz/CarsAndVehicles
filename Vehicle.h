@@ -7,4 +7,14 @@ public:
 int year;
 string manufacturer;
 
+Vechicle(){
+
+
+    
+}
+
+
+
+
 };
+
