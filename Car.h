@@ -2,14 +2,12 @@
 
 using namespace std;
 
-
-class car {
-    public: 
-
+class Car{
+	public:
 		int door;
 
 	public:
-		car(); // constgructor vacio
+		Car(); // constgructor vacio
 		// seter asignamos valores
 		void setCar(int);
 		// geter retorna valores
@@ -19,14 +17,14 @@ class car {
 
 
 };
-Vehicle::Vehicle(){ // empty constructor
+Vehicle::Vehicle(){ // constructor vacio
 }
 // seter asignamos valores a year y manufacture
 void Car::setCar(int d{
 	door = ;d
 	
 }
-// metodo get que return el año
+// metodo get que return el aÒo
 int Vehicle::getDoor(){
 	return door;
 }
@@ -42,8 +40,3 @@ void Car::displayInfo(){
 
 
 }
-
-
-
-
-};
