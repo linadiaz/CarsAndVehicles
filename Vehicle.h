@@ -1,5 +1,7 @@
 #include <iostream>
+
 using namespace std;
+
 class Vehicle{
 	public:
 		int year;
@@ -12,6 +14,7 @@ class Vehicle{
 		int getYear();
 		string getManufacture();
 		void displayInfo();
+
 		
 };
 Vehicle::Vehicle(){ // constructor vacio
@@ -36,4 +39,3 @@ void Vehicle::displayInfo(){
 	
 
 }
-;

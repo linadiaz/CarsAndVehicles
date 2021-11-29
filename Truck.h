@@ -1,6 +1,4 @@
 #include <iostream>
-#include "vehicle.h"
-
 
 using namespace std;
 
@@ -19,10 +17,10 @@ class Truck{
 
 
 };
-Truck::Truck(){ // constructor vacio
+TRuck::Truck(){ // constructor vacio
 }
 // seter asignamos valores a year y manufacture
-void Truck::setTruck(int c){
+void Truck::setTruct(int c){
 	capacity = c;
 	
 }
@@ -30,7 +28,7 @@ void Truck::setTruck(int c){
 int Truck::getCapacity(){
 	return year;
 }
-
+/
 void Truck::displayInfo(){
 	cout <<" information Vehicle "<<endl;
 	cout << " Manufacture " << manufacture<<endl;
