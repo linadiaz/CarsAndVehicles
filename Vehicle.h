@@ -1,6 +1,6 @@
 #include <string>
 using namespace std;
-
+#include <iostream>
 class Vechicle {
 
 public: 
@@ -10,7 +10,7 @@ string manufacturer;
 Vechicle(){
 
 
-    
+
 }
 
 
