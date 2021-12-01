@@ -4,12 +4,16 @@ using namespace std;
 
 class Car{
 	public:
-		int door;
+		int doors;
 
 	public:
-		Car(); // constgructor vacio
+		Car(
+
+
+
+		); // constgructor vacio
 		// seter asignamos valores
-		void setCar(int);
+		void setCar(int doors);
 		// geter retorna valores
 		int getDoor();
 		
